@@ -64,6 +64,7 @@ There are eight main steps:
 7. Study how you would solve the problem manually.
 9. Identify the promising transformations you may want to apply.
 10. Document what you have learned.
+
 ### Prepare the Data
 
 Notes:
@@ -78,8 +79,8 @@ Notes:
   
 
 1. Data Cleaning:
-  1. Fix or remove outliers (optional).
-  2. Fill in missing values (e.g., with zero, mean, median...) or drop their rows (or columns)
+  * Fix or remove outliers (optional).
+  * Fill in missing values (e.g., with zero, mean, median...) or drop their rows (or columns)
 2. Feature selection (optional):
   * Drop the attributes that provide no useful information for the task.
 3. Feature engineering, where appropriate:
