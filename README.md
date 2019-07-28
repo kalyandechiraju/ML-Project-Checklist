@@ -64,7 +64,6 @@ There are eight main steps:
 7. Study how you would solve the problem manually.
 9. Identify the promising transformations you may want to apply.
 10. Document what you have learned.
-
 ### Prepare the Data
 
 Notes:
@@ -76,11 +75,11 @@ Notes:
   * To clean and prepare the test set
   * To clean and prepare new data instances once your solution is live
   * To make it easy to treat your preparation choices as hyperparameters
- 
+  
 
 1. Data Cleaning:
-  * Fix or remove outliers (optional).
-  * Fill in missing values (e.g., with zero, mean, median...) or drop their rows (or columns)
+  1. Fix or remove outliers (optional).
+  2. Fill in missing values (e.g., with zero, mean, median...) or drop their rows (or columns)
 2. Feature selection (optional):
   * Drop the attributes that provide no useful information for the task.
 3. Feature engineering, where appropriate:
@@ -89,4 +88,3 @@ Notes:
   * Add promising transformations of features (e.g., log(x), sqrt(x), x^2, etc.).
   * Aggregate features into promising new features.
 4. Feature scaling: standardize or normalize features.
-
