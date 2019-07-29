@@ -120,3 +120,23 @@ Notes:
 3. Once you are confident about your final model, measure its performance on the test set to estimate the generalization error.
 
 **Note: Dont tweak your model after measuring the generalization error: you would just start overfitting the test set.**
+
+### Present Your Solution
+
+1. Document what you have done.
+2. Create a nice presentation.
+  * Make sure you highlight the big picture first.
+3. Explain why  your solution achieves the business objective.
+4. Don't forget to present interesting points you noticed along the way.
+  * Describe what worked and what did not.
+  * List your assumptions and your system's limitations.
+5. Ensure your key findings are communicated through beautiful visualizations or easy-to-remember statements (e.g., "the median income is the number-one predictor of housing prices").
+
+### Launch!
+
+1. Get your solution ready for production (plug into production data inputs, write unit tests, etc.).
+2. Write monitoring code to check your system's live performance at regular intervals and trigger alerts when it drops.
+  * Beware of slow degradation too: models tend to "rot" as data evolves.
+  * Measuring performance may require a human pipeline (e.g., via a crowdsourcing service).
+  * Also monitor your inputs' quality (e.g., a malfunctioning sensor sending random values, or another team's output becoming stale). This is particularly important for **online learning systems**.
+3. Retrain your models on a regular basis on fresh data (automate as much as possible).
